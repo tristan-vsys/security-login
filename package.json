@@ -1,0 +1,17 @@
+﻿{
+  "name": "security-login",
+  "version": "1.0.0",
+  "description": "Simple login interface with environment variables",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'No build step required'",
+    "test": "echo 'No tests specified'",
+    "healthcheck": "node healthcheck.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  }
+}
